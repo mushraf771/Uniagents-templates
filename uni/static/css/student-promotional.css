@@ -1,0 +1,13 @@
+.spacer60 {
+    height: 60px;
+    clear: both;
+    
+}
+.spacer {
+    height: 15px;
+    clear: both;
+}
+.cards-demo{
+    border:1px solid rgb(73, 189, 58);
+    height:620px;
+}

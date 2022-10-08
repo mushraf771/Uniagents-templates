@@ -1,0 +1,186 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,700;1,300;1,700&display=swap');
+*{
+    font-family: 'Lato', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Lato', sans-serif;
+    font-size: 13px;
+    line-height: initial;
+    overflow-x: hidden;
+}
+
+.spacer60 {
+    height: 60px;
+    clear: both;
+    
+}
+.spacer {
+    height: 15px;
+    clear: both;
+}
+.clearfix, .clearfix:after, .clearfix:before {
+    clear: both;
+    margin: 0;
+    padding: 0;
+}
+.clearfix:before, .clearfix:after {
+    content: "";
+    position: relative;
+    display: block;
+}
+.clearfix, .clearfix:after, .clearfix:before {
+    clear: both;
+    margin: 0;
+    padding: 0;
+}
+.registration-form-container {
+    float: left;
+    width: 100%;
+    min-height: 1050px!important;
+    /* border: 2px solid red !important; */
+}
+.registration-form-container .content {
+    max-height: 1030px;
+    overflow-y: scroll;
+    overflow-x: hidden;
+}
+.registration-form-container .content {
+    padding: 20px;
+}
+.registration-form-container p {
+    font-size: 12px !important;
+    line-height: 18px !important;
+}
+.form-red{
+    color: red;
+
+}
+/* 2nd-form */
+.main-heading {
+    color: #888989;
+    border-bottom: 1px dashed #d0d0d0;
+    padding: 10px 0;
+    font-size: 25px;
+}
+
+/* checkbox */
+.check-col3 {
+    display: inline-block;
+    width: 100%;
+    color: #666;
+    font-size: 13px;
+    padding: 6px 0;
+}
+.check-col3 input[type="checkbox"] {
+    visibility: hidden;
+}
+input[type="checkbox" i]:focus-visible {
+    outline-offset: 2px;
+}
+input[type="checkbox" i] {
+    background-color: initial;
+    cursor: default;
+    appearance: auto;
+    box-sizing: border-box;
+    margin: 3px 3px 3px 4px;
+    padding: initial;
+    border: initial;
+}
+:focus-visible {
+    outline: -webkit-focus-ring-color auto 1px;
+}
+.check-col3 label {
+    display: inline-block;
+    position: relative;
+    cursor: pointer;
+   
+}
+.check-col3 .check-text {
+    display: inline-block;
+    position: relative;
+    left: 18px;
+    top: 5px;
+  
+}
+.check-col3 label:before {
+    background: #ccc;
+    width: 15px;
+    height: 15px;
+}
+.check-col3 label:before, .check-col3 label:after {
+    position: absolute;
+    content: "";
+}
+.check-col3 input[type="checkbox"] + label:after {
+    opacity: 0;
+    transition: all 0.2s ease-in-out;
+}
+.check-col3 label:after {
+    border: 2px solid #fff;
+    height: 3px;
+    width: 7px;
+    left: 3px;
+    top: 4px;
+    border-left: 0;
+    border-bottom: 0;
+}
+textarea {
+    resize: vertical;
+}
+input[type="text"], input[type="email"], input[type="password"], input[type="url"], select, textarea {
+    display: block;
+    width: 100%;
+    box-sizing: border-box;
+    padding: 10px;
+    border: 1px solid #dedede;
+    border-radius: 3px;
+}
+.register-button-container input[type="submit"] {
+    background-color: #11c79f;
+    color: #fff;
+    padding: 8px 60px;
+    font-size: 20px;
+    border: none;
+    border-bottom: 5px solid #18b691;
+    cursor: pointer;
+}
+
+/* right container */
+.registration-text-container {
+    float: right;
+    background: #34a4c9;
+    color: #fff;
+    width: 100%;
+    min-height: 1050px;
+}
+.registration-text-container .sub-head {
+    font-size: 25px;
+    color: #aee0f1;
+    display: block;
+    padding: 5px 0;
+    margin-bottom: 15px;
+}
+.registration-text-container p {
+    padding: 5px 0;
+    line-height: 20px;
+    text-align: justify;
+    color: #fff !important;
+}
+.registration-text-container ul {
+    list-style: square;
+    margin-left: 25px;
+}
+user agent stylesheet
+::marker {
+    unicode-bidi: isolate;
+    font-variant-numeric: tabular-nums;
+    text-transform: none;
+    text-indent: 0px !important;
+    text-align: start !important;
+    text-align-last: start !important;
+}

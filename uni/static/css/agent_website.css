@@ -1,0 +1,284 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,700;1,300;1,700&display=swap');
+*{
+    font-family: 'Lato', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Lato', sans-serif;
+    font-size: 13px;
+    line-height: initial;
+    overflow-x: hidden;
+}
+
+.spacer60 {
+    height: 60px;
+    clear: both;
+    
+}
+.spacer {
+    height: 15px;
+    clear: both;
+}
+.clearfix, .clearfix:after, .clearfix:before {
+    clear: both;
+    margin: 0;
+    padding: 0;
+}
+/* after carousel */
+.contact-left {
+    width: 100%;
+    display: inline-block;
+}
+.head {
+    font-size: 25px;
+    color: #2369b8;
+    font-weight: 900;
+}
+.website-sample-link {
+    display: inline-block;
+    width: 46%;
+    margin: 1%;
+    border-radius: 10px;
+    overflow: hidden;
+    vertical-align: middle;
+    text-align: center;
+    position: relative;
+    background: #0a4657;
+}
+.website-sample-link .link:hover {
+    background: #333;
+    box-shadow: 0 5px 10px rgb(51 51 51 / 50%);
+    opacity: 1;
+}
+a:hover {
+    text-decoration: none;
+}
+a {
+    text-decoration: none;
+    color: #0f9ee4;
+    outline: none;
+}
+.website-sample-link img {
+    display: block;
+    max-width: 100%;
+    transition: all 0.5s ease-in-out;
+}
+.website-sample-link {
+    display: inline-block;
+    width: 46%;
+    margin: 1%;
+    border-radius: 10px;
+    overflow: hidden;
+    vertical-align: middle;
+    text-align: center;
+    position: relative;
+    background: #0a4657;
+}
+.website-sample-link:hover .link {
+    opacity: 1;
+}
+.website-sample-link .link {
+    background: #20c9fa;
+    border-radius: 100px;
+    padding: 8px 20px;
+    font-size: 12px;
+    text-transform: uppercase;
+    color: #fff;
+    display: inline-block;
+    position: absolute;
+    width: 40%;
+    left: 30%;
+    top: 38%;
+    box-sizing: border-box;
+    box-shadow: 0 5px 10px rgb(32 201 250 / 50%);
+    z-index: 2;
+    opacity: 0;
+    transition: all 0.5s ease-in-out;
+}
+.website-sample-link:hover img {
+    opacity: 0.5;
+}
+.website-sample-link img {
+    display: block;
+    max-width: 100%;
+    transition: all 0.5s ease-in-out;
+}
+
+/* card section  */
+.samples {
+    display: inline-block;
+    width: 100%;
+    text-align: center;
+    vertical-align: top;
+    color: #333;
+}
+.samples img {
+    margin: 20px auto;
+    display: block;
+}
+.samples .sample-head {
+    font-size: 18px;
+    font-weight: 900;
+}
+.samples .sample-head small {
+    font-size: 14px;
+    display: block;
+    font-weight: 400;
+    padding-top: 6px;
+}
+
+/* addson section */
+.quotation-container1 {
+    width: 100%;
+    float: left;
+}
+.main-head {
+    display: block;
+    font-size: 35px;
+    padding: 20px 0;
+}
+.main-head small {
+    display: block;
+    font-size: 20px;
+    margin-top: 10px;
+}
+.total-amount {
+    font-weight: 900;
+    font-size: 25px;
+    text-transform: uppercase;
+}
+.quotaion-subscription-container {
+    position: relative;
+    text-align: center;
+    margin: 0 auto;
+}
+.quotaion-subscription-container .quotation-subscription {
+    width: 100%;
+    /* width: 33.33%; */
+    float: left;
+    background: #f3f8fc;
+    min-height: 260px;
+}
+.quotaion-subscription-container .quotation-subscription .duration {
+    display: block;
+    font-size: 25px;
+    color: #333;
+    text-align: center;
+    padding: 20px 0;
+    font-weight: 900;
+}
+.quotaion-subscription-container .quotation-subscription .duration small {
+    display: block;
+    font-size: 13px;
+    padding: 15px 0;
+    font-weight: 400;
+}
+.quotaion-subscription-container .quotation-subscription .price {
+    display: block;
+    font-size: 25px;
+    color: #333;
+    text-align: center;
+    padding: 15px 0;
+    font-weight: 900;
+}
+.quotaion-subscription-container .checkbox-contianer {
+    position: relative;
+    border-radius: 100px;
+    text-transform: uppercase;
+    font-size: 14px;
+    display: inline-block;
+    overflow: hidden;
+    margin: 20px 0;
+ 
+}
+.quotaion-subscription-container label {
+    position: relative;
+    width: 120px;
+    height: 36px;
+    padding: 10px 50px;
+    display: block;
+    cursor: pointer;
+  
+}
+.quotaion-subscription-container input {
+    opacity: 0;
+}
+.quotaion-subscription-container .checkbox-contianer span {
+    background: #207ef2;
+    position: absolute;
+    height: 100%;
+    margin-top:5px;
+    width: 100%;
+    left: 0;
+    top: 0;
+    transition: all 0.5s ease-in-out;
+}
+.quotaion-subscription-container .checkbox-contianer span:before {
+    content: "Select";
+    color: #fff;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    padding-top: 8px;
+    box-sizing: border-box;
+    left: 0;
+    top: 0;
+    transition: all 0.5s ease-in-out;
+}
+.quotaion-subscription-container .checkbox-contianer span:after {
+    content: "\f00c";
+    position: absolute;
+    top: 0;
+    left:0 ;
+    width: 100%;
+    text-align: center;
+    height: 100%;
+    padding-top: 7px;
+    box-sizing: border-box;
+    /* background: #0dc886; */
+    color: #fff;
+    left: -100%;
+    transition: all 0.5s ease-in-out;
+    font-family: 'FontAwesome';
+}
+
+/* addson section */
+.quotaion-subscription-container .add-ons .add-ons-head {
+    display: block;
+    font-size: 25px;
+    font-weight: 900;
+    text-align: center;
+    color: #333;
+}
+.particular .main-text {
+    display: inline-block;
+    text-align: left;
+    min-width: 32%;
+    font-weight: 900;
+    padding: 10px 0;
+}
+.particular .main-text .checkbox-contianer {
+    margin: 0;
+    top: 9px;
+    font-weight: 400;
+}
+.particular .main-text .checkbox-contianer {
+    margin: 0;
+    top: 9px;
+    font-weight: 400;
+}
+.total-amount button {
+    border-radius: 20px;
+    border:none !important;
+    background: #12bab0;
+    color: #fff;
+    padding: 10px 20px;
+    font-size: 14px;
+    font-weight: 700;
+    transition: all 0.5s ease-in-out;
+}
